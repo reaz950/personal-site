@@ -1,0 +1,325 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+.container{
+    width: 1170px;
+    margin:0 auto;
+}
+
+/* *************************  Main css start  ********************** */
+
+/* *************************  Header part css start  **************** */
+
+#header{
+    padding-top:50px;
+    padding-bottom: 100px;
+}
+
+.banner{
+    display: flex;
+}
+
+.banner-text{
+    width: 60%;
+    padding: 30px;
+}
+
+
+.banner-text h1{
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Yeseva One', cursive;
+    font-size: 60px;
+    font-weight: 400;
+    color: #333333;
+    line-height: 80px;
+    padding-bottom: 30px;
+    
+}
+
+.banner-text h2{
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Yeseva One', cursive;
+    font-size: 60px;
+    font-weight: 400;
+    color: #FFAD5A;
+
+}
+.banner-text p{
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Yeseva One', cursive;
+    font-size: 20px;
+    font-weight: 400;
+    color: #3E3E3E;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.asame{
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Yeseva One', cursive;
+    font-size: 18px;
+    font-weight: 500;
+    color: #fff;
+    margin-top: 50px;
+    background-color: #FF5959;
+    padding: 10px 20px;
+    transition: all linear 0.4s;
+}
+
+.banner-text a:hover{
+    background-color: orange;
+    color:black;
+}
+.banner-img{
+    width: 40%;
+}
+
+.banner-img img{
+    width: 70%;
+
+}
+
+
+/* *************************  My mission part css start  **************** */
+
+#mission{
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+.mission-head h1{
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Yeseva One', cursive;
+    font-size: 48px;
+    font-weight: 700;
+    text-align:center;
+    color: #13103A;
+    line-height: 70px;
+    padding-bottom: 80px;
+
+}
+
+.mission-head h1 span{
+    color: #FFAD5A;
+}
+
+.mission-card{
+    display: flex;
+    justify-content:space-between;
+    
+}
+
+.mission-card img{
+    width: 40%;
+}
+
+.mission-card-one{
+    width: 27%;
+    background-color: #4F9DA6;
+    padding: 0px 20px;
+    border-radius: 5%;
+    margin-left: 30px;
+    
+}
+
+.mission-card-one h1{
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Yeseva One', cursive;
+    font-size: 24px;
+    font-weight: 500;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+.mission-card-one p{
+    color: #424242;
+    padding-bottom: 50px;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Yeseva One', cursive;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.mission-card-two{
+    width: 27%;
+    background-color: #FF5959;
+    padding: 0px 20px;
+}
+
+.mission-card-two h1{
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Yeseva One', cursive;
+    font-size: 24px;
+    font-weight: 500;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+.mission-card-two p{
+    color: #424242;
+    padding-bottom: 50px;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Yeseva One', cursive;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.mission-card-three{
+    width: 27%;
+    background-color: #FFF4D6;
+    padding: 0px 20px;
+    margin-right: 30px;
+}
+
+.mission-card-three h1{
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Yeseva One', cursive;
+    font-size: 24px;
+    font-weight: 500;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+.mission-card-three p{
+    color: #424242;
+    padding-bottom: 50px;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Yeseva One', cursive;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
+/* *********************************  Coarding part css start  ****************************************** */
+
+
+#learn-coarding{
+    padding-top: 20px;
+    padding-bottom: 100px;
+}
+
+.coarding{
+    display: flex;
+}
+
+.coarding-img{
+    width: 50%;
+}
+
+
+.coarding-img img{
+    width: 80%;
+}
+
+.coarding-text{
+    width: 50%;
+    padding-top: 50px;
+}
+
+.coarding-text h1{
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Yeseva One', cursive;
+    font-size: 36px;
+    font-weight: 700;
+    padding-bottom: 20px;
+    color: #333333;
+
+}
+.coarding-text h2{
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Yeseva One', cursive;
+    font-size: 33px;
+    font-weight: 700;
+    color: #333333;
+    padding-bottom: 20px;
+}
+.coarding-text p{
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Yeseva One', cursive;
+    font-size: 16px;
+    margin-bottom: 50px;
+}
+.coarding-text a{
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Yeseva One', cursive;
+    font-size: 18px;
+    font-weight: 500;
+    color: #fff;
+    margin-top: 50px;
+    background-color: #FF5959;
+    padding: 10px 20px;
+    transition: all linear 0.4s;
+}
+
+.coarding-text a:hover{
+    background-color: orange;
+    color:black;
+
+}
+
+/* *********************  Community part Html start  *********************************** */
+
+
+#social-community{
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+.community{
+    display: flex;
+}
+
+.community-img{
+    width: 50%;
+}
+
+.community-text{
+    width: 50%;
+}
+
+.community-text h1{
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Yeseva One', cursive;
+    font-size: 36px;
+    font-weight: 700;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+.community-text h2{
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Yeseva One', cursive;
+    font-size: 36px;
+    font-weight: 700;
+    padding-bottom: 30px;
+}
+.community-text p{
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Yeseva One', cursive;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+
+.community-img img{
+    width: 60%;
+    margin-left:80px;
+}
+
+.asame:hover{
+    background: orange;
+    color: black;
+}
+
+
+/* *******************  Footer part css start  *********************** */
+
+.footer{
+    
+}
