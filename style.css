@@ -31,6 +31,9 @@ a{
     padding: 30px;
 }
 
+.text-border{
+    border-left: 3px solid red;
+}
 
 .banner-text h1{
     font-family: 'Poppins', sans-serif;
@@ -46,7 +49,7 @@ a{
 .banner-text h2{
     font-family: 'Poppins', sans-serif;
     font-family: 'Yeseva One', cursive;
-    font-size: 60px;
+    font-size: 50px;
     font-weight: 400;
     color: #FFAD5A;
 
@@ -317,11 +320,75 @@ a{
     color: black;
 }
 
+/* *****************************  About me ****************************/
+
+.about-me{
+    display: flex;
+}
+.about-head h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.about-head h1 span{
+    color: orange;
+}
+
+.about-img {
+    width: 50%;
+}
+
+.about-img img{
+    width: 100%;
+}
+
+.about-text{
+    margin-left: 40px;
+}
+
+.about-text h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+}
+.about-text h3{
+    font-family: 'Poppins', sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    color: orange;
+
+}
+.about-text p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    padding-bottom: 30px;
+}
+.about-text a{
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Yeseva One', cursive;
+    font-size: 18px;
+    font-weight: 500;
+    color: #fff;
+    margin-top: 50px;
+    background-color: #FF5959;
+    padding: 10px 20px;
+    transition: all linear 0.4s;
+}
+
+.about-text a:hover{
+    background: orange;
+    color: black;
+}
 
 /* *******************  Footer part css start  *********************** */
 
 .footer{
     background: #0B0D17;
+    margin-top: 100px;
 }
 
 .footer h1{
