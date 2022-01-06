@@ -321,5 +321,17 @@ a{
 /* *******************  Footer part css start  *********************** */
 
 .footer{
-    
+    background: #0B0D17;
 }
+
+.footer h1{
+    font-family: 'Lobster', cursive;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Yeseva One', cursive;
+    font-size: 36;
+    font-weight: 400;
+}
+
+.footer h1 span{}
+
+.footer p{}
